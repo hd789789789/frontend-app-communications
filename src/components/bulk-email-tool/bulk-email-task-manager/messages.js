@@ -4,151 +4,151 @@ const messages = defineMessages({
   /* BulkEmailContentHistory.jsx Messages */
   errorFetchingEmailHistoryData: {
     id: 'bulk.email.content.history.table.alert.errorFetchingData',
-    defaultMessage: 'An error occurred retrieving email history data for this course. Please try again later.',
+    defaultMessage: 'Đã xảy ra lỗi khi truy xuất dữ liệu lịch sử email cho khóa học này. Vui lòng thử lại sau.',
   },
   noEmailData: {
     id: 'bulk.email.content.history.table.alert.noEmailData',
-    defaultMessage: 'There is no email history for this course.',
+    defaultMessage: 'Không có lịch sử email nào cho khóa học này.',
   },
   buttonViewMessage: {
     id: 'bulk.email.content.history.table.button.viewMessage',
-    defaultMessage: 'View Message',
+    defaultMessage: 'Xem tin nhắn',
   },
   modalMessageSubject: {
     id: 'bulk.email.content.history.table.modal.subject',
-    defaultMessage: 'Subject:',
+    defaultMessage: 'Tiêu đề:',
   },
   modalMessageSentBy: {
     id: 'bulk.email.content.history.table.modal.sentBy',
-    defaultMessage: 'Sent by:',
+    defaultMessage: 'Người gửi:',
   },
   modalMessageTimeSent: {
     id: 'bulk.email.content.history.table.modal.timeSent',
-    defaultMessage: 'Time sent:',
+    defaultMessage: 'Thời gian gửi:',
   },
   modalMessageSentTo: {
     id: 'bulk.email.content.history.table.modal.sentTo',
-    defaultMessage: 'Sent to:',
+    defaultMessage: 'Gửi đến:',
   },
   modalMessageBody: {
     id: 'bulk.email.content.history.table.modal.messageBody',
-    defaultMessage: 'Message:',
+    defaultMessage: 'Tin nhắn:',
   },
   modalCloseButton: {
     id: 'bulk.email.tool.close.modalDialog.button',
-    defaultMessage: 'Close',
+    defaultMessage: 'Đóng',
   },
   emailHistoryTableViewMessageInstructions: {
     id: 'bulk.email.content.history.table.viewMessageInstructions',
-    defaultMessage: 'To read a sent email message, click the `View Message` button within the table.',
+    defaultMessage: 'Để đọc email đã gửi, hãy nhấp vào nút `Xem tin nhắn` trong bảng.',
   },
   emailHistoryTableColumnHeaderSubject: {
     id: 'bulk.email.content.history.table.column.header.subject',
-    defaultMessage: 'Subject',
+    defaultMessage: 'Tiêu đề',
   },
   emailHistoryTableColumnHeaderAuthor: {
     id: 'bulk.email.content.history.table.column.header.author',
-    defaultMessage: 'Sent By',
+    defaultMessage: 'Người gửi',
   },
   emailHistoryTableColumnHeaderRecipients: {
     id: 'bulk.email.content.history.table.column.header.recipients',
-    defaultMessage: 'Sent To',
+    defaultMessage: 'Gửi đến',
   },
   emailHistoryTableColumnHeaderTimeSent: {
     id: 'bulk.email.content.history.table.column.header.timeSent',
-    defaultMessage: 'Time Sent',
+    defaultMessage: 'Thời gian gửi',
   },
   emailHistoryTableColumnHeaderNumberSent: {
     id: 'bulk.email.content.history.table.column.header.numberSent',
-    defaultMessage: 'Number Sent',
+    defaultMessage: 'Số lượng đã gửi',
   },
   emailHistoryTableSectionButtonHeader: {
     id: 'bulk.email.content.history.table.button.header',
-    defaultMessage: 'View the content of previously sent emails',
+    defaultMessage: 'Xem nội dung email đã gửi trước đó',
   },
   emailHistoryTableSectionButton: {
     id: 'bulk.email.content.history.table.button',
-    defaultMessage: 'Show Sent Email History',
+    defaultMessage: 'Hiển thị lịch sử email đã gửi',
   },
   /* BulkEmailTaskManager.jsx messages */
   pendingTasksHeader: {
     id: 'bulk.email.pending.tasks.header',
-    defaultMessage: 'Pending tasks has moved',
+    defaultMessage: 'Tác vụ đang chờ đã được di chuyển',
   },
   emailTaskHistoryHeader: {
     id: 'bulk.email.email.task.history.header',
-    defaultMessage: 'Email Task History',
+    defaultMessage: 'Lịch sử tác vụ email',
   },
   /* BulkEmailPendingTasks.jsx messages */
   pendingTaskSectionInfo: {
     id: 'bulk.email.pending.tasks.section.info',
-    defaultMessage: 'Email actions run in the background. The status for any active tasks - including email tasks - appears in the table below.',
+    defaultMessage: 'Các thao tác email chạy nền. Trạng thái của bất kỳ tác vụ đang hoạt động nào - bao gồm cả tác vụ email - sẽ hiển thị trong bảng bên dưới.',
   },
   errorFetchingPendingTaskData: {
     id: 'bulk.email.pending.tasks.table.alert.errorFetchingData',
-    defaultMessage: 'Error fetching running task data. This request will be retried automatically.',
+    defaultMessage: 'Lỗi khi tải dữ liệu tác vụ đang chạy. Yêu cầu này sẽ được thử lại tự động.',
   },
   noPendingTaskData: {
     id: 'bulk.email.pending.tasks.table.alert.noTaskData',
-    defaultMessage: 'No tasks currently running.',
+    defaultMessage: 'Không có tác vụ nào đang chạy.',
   },
   /* BulkEmailTaskHistory.jsx messages */
   emailTaskHistoryTableSectionButtonHeader: {
     id: 'bulk.email.task.history.table.button.header',
-    defaultMessage: 'View the status for all email tasks created for this course',
+    defaultMessage: 'Xem trạng thái của tất cả tác vụ email được tạo cho khóa học này',
   },
   emailTaskHistoryTableSectionButton: {
     id: 'bulk.email.task.history.table.button',
-    defaultMessage: 'Show Email Task History',
+    defaultMessage: 'Hiển thị lịch sử tác vụ email',
   },
   errorFetchingTaskHistoryData: {
     id: 'bulk.email.task.history.table.alert.errorFetchingData',
-    defaultMessage: 'Error fetching email task history data for this course. Please try again later.',
+    defaultMessage: 'Lỗi khi tải dữ liệu lịch sử tác vụ email cho khóa học này. Vui lòng thử lại sau.',
   },
   noTaskHistoryData: {
     id: 'bulk.email.task.history.table.alert.noTaskData',
-    defaultMessage: 'There is no email task history for this course.',
+    defaultMessage: 'Không có lịch sử tác vụ email nào cho khóa học này.',
   },
   /* Common Messages */
   taskHistoryTableColumnHeaderTaskType: {
     id: 'bulk.email.task.history.table.column.header.taskType',
-    defaultMessage: 'Task Type',
+    defaultMessage: 'Loại tác vụ',
   },
   taskHistoryTableColumnHeaderTaskInputs: {
     id: 'bulk.email.task.history.table.column.header.taskInputs',
-    defaultMessage: 'Task Inputs',
+    defaultMessage: 'Dữ liệu đầu vào',
   },
   taskHistoryTableColumnHeaderTaskId: {
     id: 'bulk.email.task.history.table.column.header.taskId',
-    defaultMessage: 'Task Id',
+    defaultMessage: 'Mã tác vụ',
   },
   taskHistoryTableColumnHeaderTaskRequester: {
     id: 'bulk.email.task.history.table.column.header.taskRequester',
-    defaultMessage: 'Requester',
+    defaultMessage: 'Người yêu cầu',
   },
   taskHistoryTableColumnHeaderTaskSubmittedDate: {
     id: 'bulk.email.task.history.table.column.header.taskSubmittedDate',
-    defaultMessage: 'Submitted',
+    defaultMessage: 'Đã gửi',
   },
   taskHistoryTableColumnHeaderTaskDuration: {
     id: 'bulk.email.task.history.table.column.header.taskDuration',
-    defaultMessage: 'Duration (seconds)',
+    defaultMessage: 'Thời lượng (giây)',
   },
   taskHistoryTableColumnHeaderTaskState: {
     id: 'bulk.email.task.history.table.column.header.taskState',
-    defaultMessage: 'State',
+    defaultMessage: 'Trạng thái',
   },
   taskHistoryTableColumnHeaderTaskStatus: {
     id: 'bulk.email.task.history.table.column.header.taskStatus',
-    defaultMessage: 'Status',
+    defaultMessage: 'Tình trạng',
   },
   taskHistoryTableColumnHeaderTaskProgress: {
     id: 'bulk.email.task.history.table.column.header.taskProgress',
-    defaultMessage: 'Task Progress',
+    defaultMessage: 'Tiến độ tác vụ',
   },
   scheduledEmailsTableHeader: {
     id: 'bulk.email.scheduled.emails.table.header',
-    defaultMessage: 'Scheduled emails',
+    defaultMessage: 'Email đã lên lịch',
   },
 });
 

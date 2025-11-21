@@ -21,7 +21,7 @@ export default function BackToInstructor(props) {
       />
       <FormattedMessage
         id="bulk.email.back.to.instructorDashboard"
-        defaultMessage="Back to Instructor Dashboard"
+        defaultMessage="Quay lại Bảng điều khiển giảng viên"
         description="A link to take the user back to the instructor dashboard"
       />
     </Button>

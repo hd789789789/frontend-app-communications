@@ -27,7 +27,7 @@ export default function BulkEmailTool() {
                 <h1 className="text-primary-500">
                   <FormattedMessage
                     id="bulk.email.send.email.header"
-                    defaultMessage="Send an email"
+                    defaultMessage="Gửi email"
                     description="A label for email form"
                   />
                 </h1>

@@ -24,7 +24,7 @@ function ScheduleEmailForm(props) {
             floatingLabel={(
               <FormattedMessage
                 id="bulk.email.form.schedule.date"
-                defaultMessage="Send date"
+                defaultMessage="Ngày gửi"
                 description="Label for the date portion of the email schedule form"
               />
             )}
@@ -32,7 +32,7 @@ function ScheduleEmailForm(props) {
           <small className="text-gray-500 x-small">
             <FormattedMessage
               id="bulk.email.form.schedule.date.description"
-              defaultMessage="Enter a start date, e.g. {date}"
+              defaultMessage="Nhập ngày bắt đầu, ví dụ: {date}"
               values={{
                 date: descriptionDate.toLocaleDateString(),
               }}
@@ -49,7 +49,7 @@ function ScheduleEmailForm(props) {
             floatingLabel={(
               <FormattedMessage
                 id="bulk.email.form.schedule.time"
-                defaultMessage="Send time"
+                defaultMessage="Giờ gửi"
                 description="Label for the time portion of the email schedule form"
               />
             )}
@@ -57,7 +57,7 @@ function ScheduleEmailForm(props) {
           <small className="text-gray-500 x-small">
             <FormattedMessage
               id="bulk.email.form.schedule.time.description"
-              defaultMessage="Enter a start time, e.g. {time}"
+              defaultMessage="Nhập giờ bắt đầu, ví dụ: {time}"
               values={{
                 time: descriptionDate.toLocaleTimeString([], { timeStyle: 'short' }),
               }}
@@ -69,7 +69,7 @@ function ScheduleEmailForm(props) {
         <Form.Control.Feedback className="pb-2" hasIcon type="invalid">
           <FormattedMessage
             id="bulk.email.form.dateTime.error"
-            defaultMessage="Date and time cannot be blank, and must be a date in the future"
+            defaultMessage="Ngày và giờ không được để trống, và phải là ngày trong tương lai"
             description="An error message located under the date-time selector. Visible only on failure."
           />
         </Form.Control.Feedback>

@@ -11,7 +11,7 @@ function TaskAlertModal(props) {
   const messages = {
     taskAlertTitle: {
       id: 'bulk.email.task.alert.title',
-      defaultMessage: 'Caution',
+      defaultMessage: 'Lưu ý',
       description: 'Title in the header of the alert',
     },
   };
@@ -26,14 +26,14 @@ function TaskAlertModal(props) {
           <Button variant="tertiary" onClick={close} name="cancel">
             <FormattedMessage
               id="bulk.email.task.alert.cancel"
-              defaultMessage="Cancel"
+              defaultMessage="Huỷ"
               description="Cancel button for the task alert"
             />
           </Button>
           <Button variant="primary" onClick={close} name="continue">
             <FormattedMessage
               id="bulk.email.form.recipients.Contine"
-              defaultMessage="Continue"
+              defaultMessage="Tiếp tục"
               description="Continue button for the task alert"
             >
               { // FormattedMessage wraps the translated string in a <span/> by default. This was

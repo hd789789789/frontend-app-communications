@@ -4,33 +4,33 @@ const messages = defineMessages({
   /* BulkEmailScheduledEmailsTable.jsx Messages */
   bulkEmailScheduledEmailsTableErrorHeader: {
     id: 'bulk.email.scheduled.emails.table.error.header',
-    defaultMessage: 'Error',
+    defaultMessage: 'Lỗi',
   },
 
   bulkEmailScheduledEmailsTableError: {
     id: 'bulk.email.scheduled.emails.table.error',
-    defaultMessage: 'An error occured while retrieving scheduled email information. Please try again later.',
+    defaultMessage: 'Đã xảy ra lỗi khi truy xuất thông tin email đã lên lịch. Vui lòng thử lại sau.',
     description: 'An error message that shows if the app is unable to display scheduled emails in the table',
   },
   bulkEmailScheduledEmailsTableSendDate: {
     id: 'bulk.email.scheduled.emails.table.sendDate',
-    defaultMessage: 'Send date',
+    defaultMessage: 'Ngày gửi',
   },
   bulkEmailScheduledEmailsTableSendTo: {
     id: 'bulk.email.scheduled.emails.table.sendTo',
-    defaultMessage: 'Send to',
+    defaultMessage: 'Gửi đến',
   },
   bulkEmailScheduledEmailsTableSubject: {
     id: 'bulk.email.scheduled.emails.table.subject',
-    defaultMessage: 'Subject',
+    defaultMessage: 'Tiêu đề',
   },
   bulkEmailScheduledEmailsTableAuthor: {
     id: 'bulk.email.scheduled.emails.table.Author',
-    defaultMessage: 'Author',
+    defaultMessage: 'Tác giả',
   },
   bulkEmailScheduledEmailsTableConfirmDelete: {
     id: 'bulk.email.scheduled.emails.table.confirm.delete',
-    defaultMessage: 'You are deleting an email scheduled to be sent on {date}. The email will not be sent and the scheduling canceled. Are you sure?',
+    defaultMessage: 'Bạn đang xóa email đã lên lịch sẽ được gửi vào {date}. Email sẽ không được gửi và lịch đã đặt sẽ bị hủy. Bạn có chắc chắn không?',
   },
 });
 

@@ -13,7 +13,7 @@ export default function BulkEmailPendingTasksAlert(props) {
     <Alert variant="warning" icon={WarningFilled}>
       <FormattedMessage
         id="bulk.email.pending.tasks.description.one"
-        defaultMessage="To view all pending tasks, including email, visit&nbsp;"
+        defaultMessage="Để xem tất cả các tác vụ đang chờ, bao gồm cả email, hãy truy cập&nbsp;"
       />
       <Hyperlink
         destination={`${getConfig().LMS_BASE_URL}/courses/${courseId}/instructor#view-course-info`}
@@ -23,12 +23,12 @@ export default function BulkEmailPendingTasksAlert(props) {
       >
         <FormattedMessage
           id="bulk.email.pending.tasks.link"
-          defaultMessage="Course Info"
+          defaultMessage="Thông tin khóa học"
         />
       </Hyperlink>
       <FormattedMessage
         id="bulk.email.pending.tasks.description.two"
-        defaultMessage="&nbsp;in the Instructor Dashboard."
+        defaultMessage="&nbsp;trong Bảng điều khiển giảng viên."
       />
     </Alert>
 
